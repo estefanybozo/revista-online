@@ -1,0 +1,79 @@
+
+@media only screen and (min-width: $small) { //desde 576px 
+
+
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    
+    
+       width: 80%;
+       height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    }
+
+   .newsletter{
+     margin-left: auto;
+     margin-right: auto;
+display: grid;
+      width: 100%;
+   }
+
+
+   .contenedor__header{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+      }
+
+   }
+
+   @media only screen and (min-width: $very-small) and (max-width:$small) { //desde 320px hasta 576px 
+   
+   
+   .noticias{
+      display: none;
+   }
+   
+   .nav{
+      padding-right: 1em;
+      margin-left: auto;
+      width: 60%;
+      
+      
+      }
+      .input-menu{
+         width: 80%;
+         border-radius: 30px;
+         border:gray solid 1px;
+     }
+   
+     .logo{
+      font-size: $xx-large;
+      align-self: center;
+      font-weight: $bold;
+      position: absolute;
+      top: 1em;
+  }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }

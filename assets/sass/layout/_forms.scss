@@ -1,0 +1,23 @@
+
+
+.newsletter{
+    margin-top: 3em;
+text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: $gris-claro;
+    padding-bottom: 1em;
+}
+
+button{
+    border: none;
+    background-color: $coral;
+    color: white;
+    padding: .5em 10px;
+}
+
+input{
+border: none;    
+padding: .5em 1em;
+
+}
